@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="./styles/main.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  
+  <title>NFT preview card component</title>
+
+</head>
+<body>
+
+  <main class="main-card__container">
+    <section class="nft-card_container">
+      <div class="nft-image__container">
+        <img class="nft-card__image" src="./images/image-equilibrium.jpg" alt="nft image"></img>
+        <div class="overlay">
+          <a href="/" class="eye-icon" title="Eye details">
+            <img src="./images/icon-view.svg" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="nft-description__container">
+        <h1>Equilibrium #3429</h1>
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+        <div class="card-details__container">
+          <div class="details-info__section">
+            <div>
+              <img src="./images/icon-ethereum.svg" class="eth-icon" alt=""><p class="price">0.041 ETH</p>
+            </div>
+            <div>
+              <img src="./images/icon-clock.svg" class="clock-icon" alt=""><p class="end-date">3 days left</p>
+            </div>
+          </div>
+          <div class="card-details__profile-info">
+            <div class="card-profile__icon"><img src="./images/image-avatar.png" alt="The profile picture of Jules Wyvern"></div>
+            <p>Creation of <span class="name">Jules Wyvern</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/ODCenteno">ODCenteno</a>.
+  </div>
+</body>
+</html>
